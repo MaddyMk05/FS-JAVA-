@@ -1,0 +1,7 @@
+public class LengthEX{
+public static void main(String[] args){
+String quote="I am in the KSR college";
+System.out.println(quote.length());
+}
+}
+ 
