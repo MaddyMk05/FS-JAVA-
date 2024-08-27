@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if (n<=72){
+            n = n % 8;
+        switch(n){
+            case 1:
+            System.out.print("lower");
+            break;
+            case 2:
+            System.out.print("middle");
+            break;
+            case 3:
+            System.out.print("upper");
+            break;
+        case 4:
+            System.out.print("Lower");
+            break;
+        case 5:
+             System.out.print("middle");
+            break;
+        case 6:
+             System.out.print("upper");
+            break;
+        case 7:
+             System.out.print("side upper");
+            break;
+        case 8:
+             System.out.print("side lower");
+            break;
+        default:
+            System.out.print("no seat available");
+        }
+        }
+    }
+}
